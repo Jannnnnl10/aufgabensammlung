@@ -1,9 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
+using System.Diagnostics.Eventing.Reader;
+using System.Dynamic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Threading;
+using System.Web;
 
 namespace _08_Binär_darstellen
 {
@@ -11,30 +14,41 @@ namespace _08_Binär_darstellen
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ganzzahlige Dezimalzahl (q to quit)");
-            int zahl = 10;
-            string bin = Convert.ToString(zahl, 2); // Konvertieren in binäre Darstellung
-            Console.WriteLine("Die binäre Darstellung von " + zahl + " ist: " + bin);
-            
-            Console.WriteLine("Ganzzahlige Dezimalzahl (q to quit)"); 
+            string inputString = "";
 
-
-
-            while (true)
+            while (inputString.ToLower() != "q")// Q soll der Buchstabe sein der das Programm beendet
             {
-                // Warten auf Benutzereingabe
-                var key = Console.ReadKey(true);
+                string bin = "";
 
-                // Überprüft, ob die Taste Q gedrückt wurde
-                if (key.Key == ConsoleKey.Q)
+                Console.WriteLine("Ganzzahlige Dezimalzahl (Q to Quit):");
+                inputString = Console.ReadLine();
+
+                if (inputString.ToLower() == "q")
                 {
-                    Console.WriteLine("Anwendung wird beendet..."); //Wenn Q gedrückt wurde wird dieser Text ausgegeben.
-                    Thread.Sleep(2000); // Macht die Konsole für 2 Sekunden / 2000 Milisekunden stumm bevor sie dann durch die Q Taste beendet wird.
-                    break; // Schleife verlassen und Anwendung beenden
+                    Console.WriteLine("Programm wurde erfolgreich beendet.");
+                    break;
+                }
 
-                    Console.ReadKey();
+                if (int.TryParse(inputString, out int input)) //Hier wird überprüft, ob die Benutzereingabe in einen INT umgewandelt werden kann. Kann wie ein Boolean nur true oder false sein
+                {
+                    do
+                    {
+                        int rest = input % 2;
+                        bin = rest + bin;
+                        input /= 2;
+                    }
+                    while (input != 0);
+                    Console.WriteLine(bin);
+                }
+                else
+                {
+                    Console.WriteLine("Fehler!!! Bitte gib eine Ganzzahl ein.");
                 }
             }
         }
     }
 }
+
+          
+        
+    
