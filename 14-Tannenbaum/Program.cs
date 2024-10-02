@@ -4,25 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _14_Diagonale_Linie
+namespace aufgabe11test
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-
-
-
-
-            Zeichnen();
+            Console.WriteLine("Wie lange soll die Linie sein?");
+            Console.WriteLine("Deine Eingabe");
+            int userEingabe = Convert.ToInt32(Console.ReadLine());
+            ZeichnenDiago(userEingabe);
             Console.ReadKey();
         }
-
-        static void Zeichnen()
+        static void ZeichnenDiago(int userAusgabe)
         {
-            for (int zeile = 1; zeile <= 6; zeile++)
+            for (int zeile = 1; zeile <= userAusgabe; zeile++)
             {
-                for (int spalte = 1; spalte <= 6; spalte++)
+                for (int spalte = 1; spalte <= userAusgabe; spalte++)
                 {
                     if (zeile == spalte)
                     {
@@ -32,7 +30,7 @@ namespace _14_Diagonale_Linie
                     {
                         Console.Write("*");
                     }
-                    
+
                 }
                 Console.WriteLine();
             }
