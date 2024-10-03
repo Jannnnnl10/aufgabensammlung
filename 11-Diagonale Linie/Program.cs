@@ -10,7 +10,7 @@ namespace aufgabe11test
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Wie lange soll die Linie sein?"); //Benutzereingabe
+            Console.WriteLine("Wie lange soll die Linie sein?"); //Benutzereingabe abfragen
             Console.WriteLine("Deine Eingabe");
             int userEingabe = Convert.ToInt32(Console.ReadLine());
             ZeichnenDiago(userEingabe);

@@ -23,7 +23,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09-Quersumme", "09-Quersumm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-Durch Quersummer teilbar", "10-Durch Quersummer teilbar\10-Durch Quersummer teilbar.csproj", "{C9C89002-06F9-4724-B416-DDB65CD56703}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-Diagonale Linie", "14-Tannenbaum\11-Diagonale Linie.csproj", "{1643DFC9-914A-472B-AF9B-78B2BACC1897}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-Diagonale Linie", "11-Diagonale Linie\11-Diagonale Linie.csproj", "{1643DFC9-914A-472B-AF9B-78B2BACC1897}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-do,while Schleife", "12-do,while Schleife\12-do,while Schleife.csproj", "{FCC3B8BA-0816-40C7-8798-BC08A130DFD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13-Schaltjahr", "13-Schaltjahr\13-Schaltjahr.csproj", "{0BBCC667-8453-43B6-9EBB-CD337CE47E07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14-Tannenbaum zeichnen", "14-Tannenbaum zeichnen\14-Tannenbaum zeichnen.csproj", "{F6C9EF3D-767E-42E6-924F-713676160351}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +81,18 @@ Global
 		{1643DFC9-914A-472B-AF9B-78B2BACC1897}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1643DFC9-914A-472B-AF9B-78B2BACC1897}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1643DFC9-914A-472B-AF9B-78B2BACC1897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCC3B8BA-0816-40C7-8798-BC08A130DFD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCC3B8BA-0816-40C7-8798-BC08A130DFD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCC3B8BA-0816-40C7-8798-BC08A130DFD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCC3B8BA-0816-40C7-8798-BC08A130DFD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BBCC667-8453-43B6-9EBB-CD337CE47E07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BBCC667-8453-43B6-9EBB-CD337CE47E07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BBCC667-8453-43B6-9EBB-CD337CE47E07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BBCC667-8453-43B6-9EBB-CD337CE47E07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6C9EF3D-767E-42E6-924F-713676160351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6C9EF3D-767E-42E6-924F-713676160351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6C9EF3D-767E-42E6-924F-713676160351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6C9EF3D-767E-42E6-924F-713676160351}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
