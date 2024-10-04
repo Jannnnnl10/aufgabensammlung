@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13-Schaltjahr", "13-Schaltj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14-Tannenbaum zeichnen", "14-Tannenbaum zeichnen\14-Tannenbaum zeichnen.csproj", "{F6C9EF3D-767E-42E6-924F-713676160351}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00-Test", "00-Test\00-Test.csproj", "{93C9C531-AA03-45A2-A066-A939E30A70B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15-Zahlen raten", "15-Zahlen raten\15-Zahlen raten.csproj", "{B36AEF5C-B65D-4F24-BBCA-F0B542145E14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +97,14 @@ Global
 		{F6C9EF3D-767E-42E6-924F-713676160351}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6C9EF3D-767E-42E6-924F-713676160351}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6C9EF3D-767E-42E6-924F-713676160351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93C9C531-AA03-45A2-A066-A939E30A70B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93C9C531-AA03-45A2-A066-A939E30A70B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93C9C531-AA03-45A2-A066-A939E30A70B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93C9C531-AA03-45A2-A066-A939E30A70B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B36AEF5C-B65D-4F24-BBCA-F0B542145E14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B36AEF5C-B65D-4F24-BBCA-F0B542145E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B36AEF5C-B65D-4F24-BBCA-F0B542145E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B36AEF5C-B65D-4F24-BBCA-F0B542145E14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
